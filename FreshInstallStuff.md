@@ -1,5 +1,6 @@
 #### Installing Kali Linux on AWS EC2 --- Tested on EC2 T2.Micro (EBS HDD Size 28 GB)
 
+> 1. Allow TCP 22 and other TCP ports in security groups
 > 1. ssh -i [ec2 key.pem] kali@[ec2 Public IP] 
 > 1. apt-get update && apt-get upgrade
 > 1. apt-get dist-upgrade
